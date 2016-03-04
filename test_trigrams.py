@@ -23,3 +23,8 @@ def test_list_words():
 def test_remove_punctuation():
     from trigrams import remove_punctuation
     assert remove_punctuation(TEST_STRING) == STRING_OUTPUT
+
+
+def test_make_sentence():
+    from trigrams import make_sentence
+    assert make_sentence(TEST_OUTPUT, output)
