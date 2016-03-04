@@ -18,7 +18,7 @@ def remove_punctuation(list_of_words):
     '[', '#', '*', '(', ')', '-', '!', '?', ',', "'", '"', '.')])
 
 
-def create_text(dictionary, wordcount=50):
+def create_text(dictionary, wordcount):
     choice = random.choice(list(dictionary.keys()))
     output = [choice[0], choice[1]]
     output.append(dictionary[choice][0])
